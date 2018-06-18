@@ -18,5 +18,10 @@ npm run release
 vim example/test.html
 sudo npm install http-server -g
 npm run example
+sudo npm i gitbook-cli -g
+gitbook init
+gitbook build
+git tag -a 'v0.0.1' -m 'first commit'
+git push origin v0.0.1
 ```
 
